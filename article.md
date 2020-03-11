@@ -1,5 +1,5 @@
 title: "Jak se šířil koronavirus mezi nakaženými z Česka"
-perex: "Nakažených novým typem koronaviru v Česku přibývá. Ve středu odpoledne úřady oznámily, že jich je 75. Za zlomový je označován případ nemocného řidiče Uberu, u něhož byla nákaza potvrzena v pondělí. Na rozdíl od většiny ostatních totiž v poslední době nepobýval v postižených oblastech. V úterý večer pak bylo v Praze mezi nakaženými už osm lidí bez cestovatelské anamnézy. Server iROZHLAS.cz zmapoval, jak se pacienti nakazili. U některých ale dosud nejsou známy ani základní údaje."
+perex: "Nakažených novým typem koronaviru v Česku přibývá. Ve středu večer úřady oznámily, že jich je 91. Za zlomový je označován případ nemocného řidiče Uberu, u něhož byla nákaza potvrzena v pondělí. Na rozdíl od většiny ostatních totiž v poslední době nepobýval v postižených oblastech. V úterý večer pak bylo v Praze mezi nakaženými už osm lidí bez cestovatelské anamnézy. Server iROZHLAS.cz zmapoval, jak se pacienti nakazili. U některých ale dosud nejsou známy ani základní údaje."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/2020-03-10t135936z_1_200311-115347_ako.JPG?itok=Iau76S6C
 coverimg_note: "Foto: iROZHLAS.cz"
 styles: []
@@ -11,7 +11,7 @@ První případy nákazy se v Česku objevily 1. března, a to u lidí, kteří 
 
 Hygienici začali dohledávat okruh osob, se kterými nakažení přišli do kontaktu. Dotyční museli následně zůstat v domácí čtrnáctidenní karanténě. Všichni pozitivně testovaní pacienti přitom měli cestovatelskou anamnézu.
 
-_Server iROZHLAS.cz se pokusil zmapovat vazby mezi nakaženými, prohlédnout si je můžete v následující aplikaci._
+_Server iROZHLAS.cz se pokusil zmapovat vazby mezi nakaženými, prohlédnout si je můžete v následující aplikaci. Jde o stav známý ve středu ve 20:00._
 
 <wide>
 <div id="corona_spider"></div>
@@ -22,7 +22,7 @@ _Server iROZHLAS.cz se pokusil zmapovat vazby mezi nakaženými, prohlédnout si
 Za zlomový označil epidemiolog a náměstek ministra zdravotnictví Roman Prymula v pořadí 38. případ. Šlo o řidiče přepravní společnosti Uber, který měl pozitivní výsledky na nový typ koronaviru v pondělí 9. března. V posledních dnech přitom nebyl v zahraničí a neměl ani spojitost s žádným do té doby známým případem.
 
 <left>
-<p>Ve středu odpoledne bylo v Česku známých celkem 75 lidí s koronavirem. Dva z nich jsou ve vážném stavu – 84letá žena leží na jednotce intenzivní péče v nemocnici v Brně, muž ve středním věku pak v pražské Nemocnici Na Bulovce. Nejvíce nakažených je momentálně v Praze, následují Ústecký a Středočeský kraj. Světová zdravotnická organizace (WHO) ve středu oznámila, že šíření koronaviru lze považovat za pandemii.<p>
+<p>Ve středu večer bylo v Česku známých celkem 91 lidí <i>(stav ve středu ve 20:00, pozn. red.)</i> s koronavirem. Jeden z nich, muž ve středním věku, hospitalizovaný v pražské Nemocnici Na Bulovce, je ve vážném stavu. To platilo i o 84leté ženě v nemocnici v Brně, její stav se ale ve večerních hodinách zlepšil. Nejvíce nakažených je momentálně v Praze, následují Ústecký a Středočeský kraj. Světová zdravotnická organizace (WHO) ve středu oznámila, že šíření koronaviru lze považovat za pandemii.<p>
 </left>
 
 Podle hygieniků je tak velmi těžké dohledat, od koho se nakazil. „Máme podezření na osoby německé národnosti, které ubytovával. Ministerstvo zdravotnictví řeší v současné době jejich dohledání a vyšetření, protože jsou už dávno zpátky v Německu,“ popsala situaci během tiskové konference šéfka pražských hygieniků Zdeňka Jágrová.
