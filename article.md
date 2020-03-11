@@ -1,6 +1,6 @@
 title: "Jak se šířil koronavirus mezi nakaženými z Česka"
 perex: "Nakažených novým typem koronaviru v Česku přibývá. Ve středu odpoledne úřady oznámily, že jich je 75. Za zlomový je označován případ nemocného řidiče Uberu, u něhož byla nákaza potvrzena v pondělí. Na rozdíl od většiny ostatních totiž v poslední době nepobýval v postižených oblastech. V úterý večer pak bylo v Praze mezi nakaženými už osm lidí bez cestovatelské anamnézy. Server iROZHLAS.cz zmapoval, jak se pacienti nakazili. U některých ale dosud nejsou známy ani základní údaje."
-coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/metro_200310-215744_jak.jpg?itok=moIo2NWU
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/2020-03-10t135936z_1_200311-115347_ako.JPG?itok=Iau76S6C
 coverimg_note: "Foto: iROZHLAS.cz"
 styles: []
 libraries: [highcharts, 'https://code.highcharts.com/modules/networkgraph.js', 'https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js'] #jquery, d3, highcharts, datatables

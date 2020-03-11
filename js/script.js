@@ -47,14 +47,11 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQa-uh5eB9_66DrWesZyIVjxr
                 //height: '50%'
             },
             credits: {
-              enabled: false,
+              text: 'Zdroj: MZ ČR',
+              href: 'https://www.mzcr.cz/obsah/2020_4107_1.html' 
             },
             title: {
                 text: 'Vazby mezi nakaženými COVID-19',
-            },
-            subtitle: {
-                text: 'dle hlášení <a target="_blank" href="https://www.mzcr.cz/obsah/2020_4107_1.html">ministerstva zdravotnictví</a>',
-                useHTML: true
             },
             plotOptions: {
                 networkgraph: {
@@ -73,7 +70,8 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQa-uh5eB9_66DrWesZyIVjxr
                 const vls = ppl.filter(n => n.id === this.point.id)[0]
                 return `<b>${forName(vls.pohlavi, vls.rocnik)}, ${vls.narodnost}</b><br>přenos nákazy: ${vls.zpusob_nakazy}<br>umístění: ${vls.hospitalizace}<br><i>${vls.popisek}</i>`
               },
-              useHTML: true
+              useHTML: true,
+              backgroundColor: 'white',
             },
             series: [{
                 dataLabels: {
