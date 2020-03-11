@@ -36,3 +36,12 @@ Dosud největší nárůst v šíření koronaviru zaznamenalo Česko v úterý 
 „Vidíme, že bohužel dochází k dynamickému nárůstu, tak musíme opatření udělat hned na začátku, ne až za pár dní nebo týdnů jako to udělala třeba Itálie, kde se pak už velmi těžko s tou epidemií něco dělá,“ popsal ministr zdravotnictví Adam Vojtěch (za ANO) Radiožurnálu.
 
 Vláda v návaznosti na šíření koronaviru přijala řadu opatření - do odvolání zrušila akce s účastí nad 100 lidí a uzavřela základní, střední, vyšší odborné a vysoké školy. Mateřské školy zatím fungovat mohou, některé ale přesto svůj provoz přerušily.
+
+_Nakažení ve vybraných zemích. Data mají asi jeden den zpoždění._
+
+<link rel="stylesheet" href="https://data.irozhlas.cz/corona-map/style.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.0.0/highcharts.js"></script>
+
+<wide><div id="corona_eu"></div></wide>
+<script src="https://data.irozhlas.cz/corona-map/pocitadlo-eu.js"></script>
