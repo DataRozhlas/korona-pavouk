@@ -41,7 +41,6 @@ _Nakažení ve vybraných zemích. Data mají asi jeden den zpoždění._
 
 <link rel="stylesheet" href="https://data.irozhlas.cz/corona-map/style.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.0.0/highcharts.js"></script>
 
 <wide><div id="corona_eu"></div></wide>
 <script src="https://data.irozhlas.cz/corona-map/pocitadlo-eu.js"></script>

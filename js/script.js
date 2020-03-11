@@ -5,13 +5,13 @@ const genderClr = {
   'muž': 'rgba(49,130,189,0.7)'
 }
 
-function forName(gender, age) {
+function forName(gender, age, add) {
   if (gender === '') {
     gender = 'nezn.'
   }
 
   if (age != '') {
-    age = ', ' + (2020 - parseInt(age))
+    age = ', ' + (2020 - parseInt(age)) + add
   }
   return gender + age
 }
@@ -24,7 +24,7 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQa-uh5eB9_66DrWesZyIVjxr
     ppl.forEach(hum => {
       nds.push({
         id: hum.id,
-        name: forName(hum.pohlavi, hum.rocnik),
+        name: forName(hum.pohlavi, hum.rocnik, ''),
         color: genderClr[hum.pohlavi] || 'rgba(99,99,99,0.7)',
         marker: {
           radius: 8
@@ -58,17 +58,22 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQa-uh5eB9_66DrWesZyIVjxr
                     keys: ['from', 'to'],
                     layoutAlgorithm: {
                       enableSimulation: false,
-                      linkLength: 33,
+                      linkLength: 53,
                       integration: 'verlet',
                       approximation: 'barnes-hut',
-                      gravitationalConstant: 0.8
-                    }
-                }
+                      gravitationalConstant: 3
+                    },
+                    link: {
+                      width: 2,
+                      color: 'black'
+                    },
+                    
+                }, 
             },
             tooltip: {
               formatter: function () {
                 const vls = ppl.filter(n => n.id === this.point.id)[0]
-                return `<b>${forName(vls.pohlavi, vls.rocnik)}, ${vls.narodnost}</b><br>přenos nákazy: ${vls.zpusob_nakazy}<br>umístění: ${vls.hospitalizace}<br><i>${vls.popisek}</i>`
+                return `<b>${forName(vls.pohlavi, vls.rocnik, ' let')}, ${vls.narodnost}</b><br>přenos nákazy: ${vls.zpusob_nakazy}<br>umístění: ${vls.hospitalizace}<br><i>${vls.popisek}</i>`
               },
               useHTML: true,
               backgroundColor: 'white',
